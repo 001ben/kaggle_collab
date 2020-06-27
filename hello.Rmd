@@ -1,7 +1,8 @@
 ---
 title: Kaggle collab space
-output: rmarkdown::github_document
-author: Ben Brown, Faith Mallei
+#output: rmarkdown::github_document
+output: html_document
+author: Ben Brown, Faith Mailei
 ---
 
 # Hi, i'm an R Markdown!
@@ -26,3 +27,8 @@ ggplot(starwars, aes(x=sex, y=height, colour=mass)) +
   geom_point()
 ```
 
+```{r}
+library(DataExplorer)
+#plot_str(starwars)
+plot_missing(starwars)
+```

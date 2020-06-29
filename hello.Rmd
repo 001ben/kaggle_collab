@@ -1,7 +1,6 @@
 ---
 title: Kaggle collab space
-#output: rmarkdown::github_document
-output: html_document
+output: rmarkdown::github_document
 author: Ben Brown, Faith Mailei
 ---
 

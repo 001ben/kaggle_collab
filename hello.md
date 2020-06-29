@@ -113,7 +113,6 @@ ggplot(starwars, aes(x=sex, y=height, colour=mass)) +
 
 ``` r
 library(DataExplorer)
-#plot_str(starwars)
 plot_missing(starwars)
 ```
 

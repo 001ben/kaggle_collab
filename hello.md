@@ -1,6 +1,6 @@
 Kaggle collab space
 ================
-Ben Brown, Faith Mallei
+Ben Brown, Faith Mailei
 
 # Hi, i’m an R Markdown\!
 

@@ -1,11 +1,25 @@
 Kaggle collab space
 ================
-Ben Brown, Faith Mallei
+Ben Brown, Faith Mailei
 
 # Hi, i’m an R Markdown\!
 
 ``` r
 library(dplyr)
+```
+
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+``` r
 print(starwars)
 ```
 
@@ -96,3 +110,10 @@ ggplot(starwars, aes(x=sex, y=height, colour=mass)) +
     ## Warning: Removed 6 rows containing missing values (geom_point).
 
 ![](hello_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+``` r
+library(DataExplorer)
+plot_missing(starwars)
+```
+
+![](hello_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
